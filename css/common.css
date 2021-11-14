@@ -74,10 +74,12 @@ img {
   color: var(--hover-focus-color);
 }
 /* HEADER */
+.top {
+  border-bottom: 1px solid #ececec;
+}
 .top-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 /* logo */
 .top-navigation {

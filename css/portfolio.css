@@ -1,0 +1,37 @@
+:root {
+  --button-text-color: #212112;
+  --button-background-color: #f5f4fa;
+  --button-text-hover-focus: #ffffff;
+  --button-background-hover-focus: #2196f3;
+  --main-headers-color: #212121;
+  --main-text-color: #757575;
+}
+/* MAIN */
+/* projects */
+.projects-main-title {
+  display: none;
+}
+.btn {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-style: none;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--button-background-hover-focus);
+  color: var(--button-text-hover-focus);
+}
+.projects-title {
+  color: var(--main-headers-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
